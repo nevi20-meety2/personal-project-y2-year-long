@@ -1,5 +1,5 @@
 body{
-	background-image: url('static/bg1.jpg');
+	background-image: url('images/bg1.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -22,8 +22,8 @@ h1{
   width: 300px;
   background-color: #EF3E36 ;
   position: absolute;
-  left: 41%;
-  top:690px;
+  left: 21%;
+  top:450px;
   border-radius: 25px;
   color: white;
   text-shadow: 3px 2px black;
@@ -32,36 +32,36 @@ h1{
 }
 .fullname{
 	position: absolute;
-	top:20%;
+	top:30%;
 	left:700px;
 }
 .username{
 	position: absolute;
-	top:190%;
+	top:200%;
 	left:0px;	
 }
 .social{
 	position: absolute;
-	top:360%;
+	top:370%;
 	left:25%;	
 }
 .favmember{
 	position: absolute;
-	top:720%;
+	top:730%;
 	left:0px;	
 }
 .opinion{
 	position: absolute;
-	top:720%;
+	top:730%;
 	left:270px;	
 }
 .favsong{
 	position:absolute;
-	top:520%;
+	top:530%;
 	left:0px;	
 }
 .favalbum{
 	position: absolute;
-	top:520%;
+	top:530%;
 	left:270px;	
 }
