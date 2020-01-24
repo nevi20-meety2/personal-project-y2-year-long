@@ -33,6 +33,17 @@ def log_in():
 def home():
      return render_template('homepage.html')
 
+@app.route('/harrystyles')
+def harry():
+     return render_template('harry.html')
+
+@app.route('/liampayne')
+def liam():
+     return render_template('liam.html')
+
+@app.route('/profile')
+def profile():
+     return render_template('profile.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
