@@ -26,7 +26,10 @@ li a, .dropbtn {
 li a:hover, .dropdown:hover .dropbtn {
   background-color: #EF3E36;
 }
-
+a:hover {
+  color: white;
+  text-decoration:none;
+}
 li.dropdown {
   display: inline-block;
 }
@@ -53,9 +56,29 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.posts{
-	/*position: absolute;*/
-	margin-top: 30px;
+
+.fineline{
+  
+}
+.hs1{
+  /*position: absolute;*/
+  /*padding-left: 30%;*/
+}
+.thisis{
+  /*position: absolute;*/
+  /*padding-left: 30%;*/
+}
+.position{
+  align-self: center;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.margin{
+  margin-top: 90px;
 }
 h1{
   color: black;
@@ -66,4 +89,3 @@ h1{
   margin: 10px;
   top: 20px;
 }
-

@@ -41,6 +41,46 @@ def harry():
 def liam():
      return render_template('liam.html')
 
+@app.route('/louistomlinson')
+def louis():
+     return render_template('louis.html')
+
+@app.route('/niallhoran')
+def niall():
+     return render_template('niall.html')
+
+@app.route('/zaynmalik')
+def zayn():
+     return render_template('zayn.html')
+
+@app.route('/onedirection')
+def oned():
+     return render_template('oned.html')
+
+@app.route('/spotifyh')
+def spotifyh():
+     return render_template('spotifyh.html')
+
+@app.route('/spotifyli')
+def spotifyli():
+     return render_template('spotifyli.html')
+
+# @app.route('/spotifylo')
+# def spotifylo():
+#      return render_template('spotifylo.html')
+
+#     @app.route('/spotifyn')
+# def spotifyn():
+#      return render_template('spotifyn.html')
+
+#     @app.route('/spotifyz')
+# def spotifyz():
+#      return render_template('spotifyz.html')
+
+# @app.route('/spotifyone')
+# def spotifyone():
+#      return render_template('spotifyone.html')
+
 @app.route('/profile')
 def profile():
      return render_template('profile.html')
